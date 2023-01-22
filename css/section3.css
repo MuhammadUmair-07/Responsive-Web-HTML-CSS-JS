@@ -1,0 +1,39 @@
+.s3-box{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+padding: 5% 20%;
+font-family: 'Open Sans', sans-serif;
+height: 50vh;
+background-color: rgb(205, 205, 205);
+}
+
+.s3-box h1{
+padding-bottom: 20px;
+}
+
+.s3-box input,.s3-box textarea{
+padding: 5px;
+border-radius: 5px;
+border: none;
+margin: 5px;
+}
+
+.submit{
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+width:50px;
+padding: 5px;
+border: 1px solid black;
+margin: 5px;
+
+    cursor: pointer;
+}
+
+.submit:active{
+    background-color: black;
+    color: white;
+}
